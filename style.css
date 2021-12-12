@@ -1,0 +1,17 @@
+div{
+    width: 150px;
+    height: 150px;
+    margin: 110px;
+    background-color:rgb(245, 26, 26);
+    transition: width 3s,height 4s,transform 4s;
+    padding: 60px;
+    font-size: 15px;
+    color: rgb(38, 219, 77);
+    
+}
+div:hover{
+    width: 210px;
+    height: 210px;
+    transform: rotate(182deg);
+    background-color: rgb(214, 23, 173);
+}
